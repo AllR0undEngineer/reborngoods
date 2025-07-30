@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { UsersIcon, ClipboardDocumentListIcon, CubeIcon, HeartIcon, TrendingUpIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
+import { UsersIcon, ClipboardDocumentListIcon, CubeIcon, HeartIcon, ArrowTrendingUpIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 
 const AdminOverview: React.FC = () => {
   const stats = [
@@ -41,7 +41,7 @@ const AdminOverview: React.FC = () => {
       value: '156',
       change: '+22%',
       changeType: 'positive',
-      icon: TrendingUpIcon,
+      icon: ArrowTrendingUpIcon,
       color: 'from-pink-400 to-pink-600'
     },
     {
